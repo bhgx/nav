@@ -1,0 +1,106 @@
+
+/*小屏幕（平板，大于等于 768px） */
+
+
+/*中等屏幕（桌面显示器，大于等于 992px）*/ 
+ .card-link{
+    margin-bottom: 15px;
+  }
+  .main .banner{
+    height: 240px;
+    margin-top: 10px;
+    padding: 30px 50px;
+  }
+  .main .banner h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .main .banner p{
+    font-size: 18px;
+  }
+  .main .list-box .menu-list{
+    margin: 0px 10px 20px 10px;
+  }
+  .nav-tabs > li > a{
+    padding: 4px 15px;
+  }
+  /*文章盒子*/
+  .article-box{
+    margin-top: 10px;
+    padding: 0px;
+  }
+  .article-box .col-md-8,
+  .article-box .col-md-4{ padding: 0 5px;}
+  .article-box .article-item, .article-box .article{
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 0px;;
+  }
+  .main .download .article h2{
+    margin-bottom: 25px;
+  }
+  .main .download .xz-info{
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .text-ellipsis{
+    margin-top: 0;
+  }
+  .article-box .article-item h2, .article-box .article h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: inherit;
+  }
+  .main .download .xz-info img{ width: 100%; margin-bottom: 15px;}
+  .article-box .article-item .article-guide, .article-box .article p{
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  .comment-box{ margin: 0 5px;}
+  /*上下文章样式*/
+  .article-box .article > footer > p{
+    margin: 0;
+    font-size: 13px;
+    color: #999;
+  }
+  .article-box .col-md-4 .row{ margin-top: 0; margin: 0 -5px;}
+  .article-box .col-md-4 .row .col-sm-6{ padding-left: 0}
+  .article-box .widget{ padding: 15px 15px; margin: 0 0px 15px 0px; }
+  .article-box .widget h3{ font-size: 16px;}
+  /*高清图库*/
+  #lightgallery{
+    padding-right: 5px;
+  }
+  #lightgallery .col-md-4{
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .imgDes-item .img-des, .imgDes-item .widget{ padding: 10px;}
+  .imgDes-item .widget{
+    margin-left: -10px;
+    
+ }
+
+  /*-----软件下载------*/
+  .main .rj-item img{
+    min-height:150px;
+  }
+  .main .rj-item p{
+    max-height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+
+  /*-----------------------------页脚---------------------------------*/
+  .footer{
+    margin-top: 30px;
+  }
+}
