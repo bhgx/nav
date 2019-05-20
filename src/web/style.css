@@ -52,9 +52,14 @@ i.icon,i.fa{ margin-right: 6px }
   top: 0;
 }
 
+.ad{
+  height:60px;
+  background-color: #f0f0f8;
+}
 /*头部logo*/
 header{
   position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -320,6 +325,7 @@ header .animated2 .bottom{
 .showMask{ display: block; }
 .left-bar{
   position: fixed;
+  position:sticky;
   top: 51px;
   left: 0;
   bottom:0;
@@ -328,6 +334,7 @@ header .animated2 .bottom{
   z-index: 12;
   padding-top: 10px;
   overflow: auto;
+  float: left;
 }
 
 .left-ul li{
@@ -421,11 +428,7 @@ header .animated2 .bottom{
 }
 /*-------------------内容区域----------------------*/
 #content{
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  
 }
 /*搜索区域*/
 .sousuo{ padding: 35px 0;}
@@ -559,7 +562,7 @@ header .animated2 .bottom{
 
 /*---------------其他页面内容区域------------------*/
 #content .main{ 
-  padding-top: 61px;
+  padding-top: 10px;
   padding-left:200px;
 }
 .mainContent{ 
